@@ -1,0 +1,30 @@
+# --- Patient data: NEVER commit raw trial data ---
+data/*
+!data/.gitkeep
+
+# --- Generated analysis outputs ---
+outputs/*
+!outputs/.gitkeep
+
+# --- R / renv ---
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/staging/
+.Rhistory
+.RData
+.Rapp.history
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
