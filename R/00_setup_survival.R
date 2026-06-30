@@ -54,7 +54,7 @@ COVARIATES_INTEGRATED_NOHX <- setdiff(
 # CSF ハイパーパラメータ
 # =============================================================================
 HORIZON       <- 2.0        # 24ヶ月 = 2.0年
-CSF_NUM_TREES <- 5000
+CSF_NUM_TREES <- 2000      # grf default
 CSF_MIN_NODE  <- 5
 CSF_SEED      <- 42
 CSF_TARGET    <- "RMST"     # "RMST" or "survival.probability"
